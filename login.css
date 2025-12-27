@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nevbar {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.nevbar-logo {
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+.nevbar-logo img {
+    width: 100px;
+    height: 100%;
+}
+.nevbar-Explore {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+.explore-text {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.nevbar-Explore:hover {
+    color: blueviolet;
+    background-color: rgb(224, 210, 237);
+}
+.nevbar-searchbar {
+    display: flex;
+    padding: 10px;
+}
+.nevbar-searchbar input {
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.nevbar-searchbar .search-logo {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center; 
+    padding: 5px;
+    position: relative;
+    left: -45px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.search-logo:hover {
+    background-color: rgb(224, 210, 237);
+}
+.nevbar-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.nevbar-elements li {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nevbar-elements li:hover {
+    color: blueviolet;
+    background-color: rgb(224, 210, 237);
+}
+.nevbar-elements li button {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    font-weight: 600;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    align-items: center;
+    cursor: pointer;
+}
+.nevbar-elements button a {
+    color: blueviolet;
+    text-decoration: none;
+}
+.nevbar-searchbar input:focus {
+    outline: none;
+    border-color: #A435F0;
+    box-shadow: 0 0 5px rgba(164, 53, 240, 0.5);
+}
+
+.signUp-main {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: center;
+}
+.divider1 {
+    display: flex;
+    width: 48%;
+    height: 100%;
+}
+.divider1 img {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    padding-left: 10%;
+}
+.divider2 {
+    display: flex;
+    position: relative;
+    top: 10%;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.divider2 h1 {
+    position: relative;
+    font-size: 50px;
+    padding: 20px;
+    margin-left: -15%;
+}
+.divider2 form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+    gap: 10px;
+}
+
+.divider2 form input[type=text] {
+    width: 80%;
+    height: 60px;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.divider2 form input[type=password] {
+    width: 80%;
+    height: 60px;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.divider2 .dob {
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+}
+.divider2 form input[type=date] {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+.divider2 form button[type=submit] {
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #7a5dc4;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.divider2 form button{
+    text-decoration: none;
+    color: white;
+}
+.divider2 form button[type=submit]:hover{
+    background-color: #8871bd;
+}
+.signup-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.signup-details h3 {
+    display: flex;
+    font-size: 22px;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.signup-details h3 a {
+    padding-left: 10px;
+}

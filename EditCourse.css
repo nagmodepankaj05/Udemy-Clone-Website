@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form {
+    display: flex;
+    padding: 25px;
+    width: 45%;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: rgb(196, 180, 180);
+}
+
+form label {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px;
+}
+form input[type=text] {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+form textarea {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+form select {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+form input[type=number] {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+form button[type=submit] {
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+    background-color: #7635f0;
+}
+form button:hover {
+    transform: scale(1.05);
+}
+form input:focus {
+    outline: none;
+    border-color: #A435F0;
+    box-shadow: 0 0 5px rgba(164, 53, 240, 0.5);
+}
+form select:focus {
+    outline: none;
+    border-color: #A435F0;
+    box-shadow: 0 0 5px rgba(164, 53, 240, 0.5);
+}
+form textarea:focus {
+    outline: none;
+    border-color: #A435F0;
+    box-shadow: 0 0 5px rgba(164, 53, 240, 0.5);
+}

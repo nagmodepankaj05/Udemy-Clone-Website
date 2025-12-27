@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to continue your learning</title>
+    <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nevbar">
+            <div class="nevbar-logo">
+                <img src="images/logo-udemy.svg">
+            </div>
+            <div class="nevbar-Explore">
+                <div class="explore-text">Explore</div>
+            </div>
+            <div class="nevbar-searchbar">
+                <input type="text" placeholder="Search for anythings...">
+            </div>
+            <div class="nevbar-elements">
+                <li>
+                    <div class="elements-text">Plans & pricing</div>
+                </li>
+                <li>
+                    <div class="elements-text">Udemy Business</div>
+                </li>
+                <li>
+                    <div class="elements-text">Teach on Udemy</div>
+                </li>
+                <li>
+                    <div class="elements-text"><i class="fa-solid fa-cart-shopping"></i></div>
+                </li>
+                <li>
+                    <button>
+                        <a href="login.html"> Log-in</a>
+                    </button>
+                </li>
+                <li class="SignUp">
+                    <button>
+                        <a href="#">Sign up</a>
+                    </button>
+                </li>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="signUp-main">
+            <div class="divider1">
+                <img src="images/login-img1.webp">
+            </div>
+            <div class="divider2">
+                <h1>Sign up with details</h1>
+                <form action="signUp.php" method="POST" id="myForm">
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <div class="date"><span class="dob">DOB :</span> <input type="date" name="dob" required></div>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="text" name="password" placeholder="Password" required>
+                    <button type="submit">Continue to Login</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="signUp.js"></script>
+</body>
+
+</html>

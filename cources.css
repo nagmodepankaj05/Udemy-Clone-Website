@@ -1,0 +1,51 @@
+.cource_data {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.cource_info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    justify-content: space-around;
+}
+.thumbnail img{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.cource_video video {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+.desc h3 {
+    font-size: 50px;
+}
+.desc p {
+    font-size: 20px;
+}
+.course_edit {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-around;
+}
+.cource_data a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #7635f0;
+}
