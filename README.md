@@ -159,4 +159,32 @@ Description: <br>
 when you add new category it will added to create course category section.
 <img width="1900" height="908" alt="img22" src="https://github.com/user-attachments/assets/c39ce80b-4561-4243-97a0-fe6dc37f0fe8" />
 <br><br>
+**⚙️ 18. Database Connection**<br>
+
+Description: <br>
+Created 5 tables Admin, categories, courses, instructor, users.<br>
+**📌 Screenshot 24** <br>
+<img width="1918" height="1016" alt="udemy8" src="https://github.com/user-attachments/assets/a01335d5-a0e1-49fd-9d65-16fdb6847439" />
+
+<br>
+**📌 Screenshot 25** <br>
+Description: Admin Table<br>
+<img width="996" height="210" alt="udemy15" src="https://github.com/user-attachments/assets/3ebaf55a-ea13-4130-9e29-f2ab15e3a625" />
+<br>
+**📌 Screenshot 26** <br>
+Description: Categories Table<br>
+<img width="517" height="367" alt="udemy16" src="https://github.com/user-attachments/assets/1ab49822-5db2-4227-90e7-043222422f68" />
+<br>
+**📌 Screenshot 27** <br>
+Description: Courses Table<br>
+<img width="1167" height="377" alt="udemy17" src="https://github.com/user-attachments/assets/a34d6c23-be58-4251-91ab-71f6c8b51769" />
+<br>
+**📌 Screenshot 28** <br>
+Description: Instructor Table<br>
+<img width="672" height="323" alt="udemy18" src="https://github.com/user-attachments/assets/a4bab230-6bdb-44f0-8cc9-a6bac8fe48e5" />
+<br>
+**📌 Screenshot 29** <br>
+Description: User Table<br>
+<img width="617" height="338" alt="udemy19" src="https://github.com/user-attachments/assets/6561f416-c2b5-43e7-b4af-e53d8073952b" />
+<br><br>
 Thank you...
