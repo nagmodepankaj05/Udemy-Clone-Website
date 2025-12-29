@@ -26,7 +26,7 @@ This is the landing page of the Udemy Clone website featuring the main banner,Ac
 **📌 Screenshot 1** <br>
 <img width="1898" height="902" alt="img1" src="https://github.com/user-attachments/assets/7be66c25-0842-472e-8467-c57f6a390c5e" />
 <br><br>
-**📂 2. Course Categories Section <b>**
+**📂 2. Course Categories Section** <br>
 
 
 Description: <br>
@@ -35,19 +35,19 @@ Displays different course categories such as Development, Business, Design, and 
 <img width="1897" height="897" alt="img2" src="https://github.com/user-attachments/assets/7f86eddf-251b-4b89-b9af-45988ddbfc61" />
 <br> <br>
 
-**⭐ 3. User details after login/SignUp <br>
+**⭐ 3. User details after login/SignUp** <br>
 
 Description: <br>
 Fetch user details and Shows it after successfully login or signUp, and show other tabs like My cart items, my Learing, purchase history, logout option. <br>
-📌 Screenshot 3<br>**
+**📌 Screenshot 3** <br>
 <img width="1897" height="906" alt="img3" src="https://github.com/user-attachments/assets/77bb177f-15e3-43c6-ba4b-241614ecf9ca" />
 <br> <br>
 
-**📚 4. Add to cart alert <br>
+**📚 4. Add to cart alert** <br>
 
 Description:<br>
 Demonstrates the card-based layout used to display course information consistently. when we click on **Add to Cart** button on particular course then it shows alert massege and this course added to users **My cart** section <br>
-📌 Screenshot 4<br>**
+**📌 Screenshot 4** <br>
 <img width="1901" height="911" alt="img4" src="https://github.com/user-attachments/assets/af8f0ee7-0a61-4f9c-8026-1c730d9ea9a1" />
 <br><br>
 **🧑‍🏫 5. Course Added to My Cart** <br>
